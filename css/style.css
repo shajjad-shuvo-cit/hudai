@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* All Common Css End */
+.banner{
+    /* width: 800px; */
+    height: 800px;
+    /* border: 2px solid black; */
+    background: url(../images/image-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+body{
+    background: #f1f1f1;
+}
+.menu{
+    height: 80px;
+    /* background: chocolate; */
+}
+
+.menu .logo{
+    width: 280px;
+    height: 100%;
+    /* background: coral; */
+    float: left;
+}
+.menu .menu_list{
+    width: 890px;
+    height: 100%;
+    /* background: rgb(13, 114, 182); */
+    float: left;
+}
+.menu_list ul{
+    text-align: right;
+
+}
+.menu_list ul li{
+    display: inline-block;
+    /* background: lightcoral; */
+    margin-top:18px;
+}
+.menu_list ul li a{
+    color: rgb(245, 7, 7);
+    padding: 15px 20px;
+}
+.banner h1{
+    text-align: center;
+    padding: 15px 0;
+}
